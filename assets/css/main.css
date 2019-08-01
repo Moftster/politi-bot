@@ -1835,9 +1835,7 @@ input, select, textarea {
 		}
 
 		.icon.style2 {
-			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+
 			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			background-color: transparent;
 			border: solid 1px #c9c9c9;
@@ -2571,25 +2569,19 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
 		.tiles article {
-			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
-			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
-			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
-			transition: transform 0.5s ease, opacity 0.5s ease;
+			transition: transform 1.5s ease, opacity 1.5s ease;
 			position: relative;
 			width: calc(33.33333% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
 		}
 
 			.tiles article > .image {
-				-moz-transition: -moz-transform 0.5s ease;
-				-webkit-transition: -webkit-transform 0.5s ease;
-				-ms-transition: -ms-transform 0.5s ease;
-				transition: transform 0.5s ease;
+				transition: transform 1.5s ease;
 				position: relative;
 				display: block;
 				width: 100%;
@@ -2604,10 +2596,7 @@ input, select, textarea {
 
 				.tiles article > .image:before {
 					pointer-events: none;
-					-moz-transition: background-color 0.5s ease, opacity 0.5s ease;
-					-webkit-transition: background-color 0.5s ease, opacity 0.5s ease;
-					-ms-transition: background-color 0.5s ease, opacity 0.5s ease;
-					transition: background-color 0.5s ease, opacity 0.5s ease;
+					transition: background-image 0.5s ease, opacity 0.5s ease;
 					content: '';
 					display: block;
 					position: absolute;
@@ -2622,9 +2611,6 @@ input, select, textarea {
 
 				.tiles article > .image:after {
 					pointer-events: none;
-					-moz-transition: opacity 0.5s ease;
-					-webkit-transition: opacity 0.5s ease;
-					-ms-transition: opacity 0.5s ease;
 					transition: opacity 0.5s ease;
 					content: '';
 					display: block;
@@ -2705,7 +2691,8 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-image:url(/images/american-flag.jpg);
+				/* background-image:url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500); */
 			}
 
 			.tiles article.style2 > .image:before {
@@ -2729,9 +2716,6 @@ input, select, textarea {
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
-				-moz-transform: scale(1.1);
-				-webkit-transform: scale(1.1);
-				-ms-transform: scale(1.1);
 				transform: scale(1.1);
 			}
 
@@ -2741,7 +2725,7 @@ input, select, textarea {
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
-					opacity: 0;
+					opacity: 1;
 				}
 
 			body:not(.is-touch) .tiles article:hover .content {
@@ -2754,9 +2738,6 @@ input, select, textarea {
 		}
 
 		body.is-preload .tiles article {
-			-moz-transform: scale(0.9);
-			-webkit-transform: scale(0.9);
-			-ms-transform: scale(0.9);
 			transform: scale(0.9);
 			opacity: 0;
 		}

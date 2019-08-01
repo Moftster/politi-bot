@@ -1,46 +1,4 @@
-<!DOCTYPE HTML>
-
-<html>
-	<head>
-		<title>Politi-bot</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
-
-							<!-- Logo -->
-								<a href="index.php" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Politi-bot</span>
-								</a>
-
-							<!-- Nav -->
-								<nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
-								</nav>
-
-						</div>
-					</header>
-
-				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.php">Home</a></li>
-							<li><a href="about.php">About</a></li>
-							<li><a href="contact.php">Contact</a></li>
-              <li><a href="contact.php">Request politician</a></li>
-						</ul>
-					</nav>
-
+<?php include('assets/partials/header.php'); ?>
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
@@ -50,7 +8,7 @@
 							<section class="tiles">
 								<article class="style1">
 									<span class="image">
-										<img src="images/trump1.jpg" alt="" />
+										<img src="images/trump-square-1.jpg" alt="" />
 									</span>
 									<a href="generic.html">
 										<h2>Magna</h2>
@@ -61,7 +19,7 @@
 								</article>
 								<article class="style2">
 									<span class="image">
-										<img src="images/trump2.jpg" alt="" />
+										<img src="images/obama-square-1.jpg" alt="" />
 									</span>
 									<a href="generic.html">
 										<h2>Lorem</h2>
@@ -72,7 +30,7 @@
 								</article>
 								<article class="style3">
 									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
+										<img src="images/johnson-square-1.jpg" alt="" />
 									</span>
 									<a href="generic.html">
 										<h2>Feugiat</h2>
@@ -184,31 +142,4 @@
 						</div>
 					</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-							<section>
-								<h2>Follow</h2>
-								<ul class="icons">
-									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-    <script>
-    console.log("Hello console!");
-
-    </script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+	<?php include('assets/partials/footer.php');
