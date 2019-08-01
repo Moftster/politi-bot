@@ -10,10 +10,9 @@
 									<span class="image">
 										<img src="images/trump-square-1.jpg" alt="" />
 									</span>
-									<a href="generic.html">
-										<h2>Magna</h2>
+									<a href="trump.php">
+										<h2>Trump</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 										</div>
 									</a>
 								</article>
@@ -22,7 +21,7 @@
 										<img src="images/obama-square-1.jpg" alt="" />
 									</span>
 									<a href="generic.html">
-										<h2>Lorem</h2>
+										<h2>Obama</h2>
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 										</div>
@@ -33,7 +32,7 @@
 										<img src="images/johnson-square-1.jpg" alt="" />
 									</span>
 									<a href="generic.html">
-										<h2>Feugiat</h2>
+										<h2>Johnson</h2>
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 										</div>
