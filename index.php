@@ -1,16 +1,11 @@
 <!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
-		<title>Phantom by HTML5 UP</title>
+		<title>Politi-bot</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -21,8 +16,8 @@
 						<div class="inner">
 
 							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
+								<a href="index.php" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Politi-bot</span>
 								</a>
 
 							<!-- Nav -->
@@ -39,11 +34,10 @@
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Ipsum veroeros</a></li>
-							<li><a href="generic.html">Tempus etiam</a></li>
-							<li><a href="generic.html">Consequat dolor</a></li>
-							<li><a href="elements.html">Elements</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="about.php">About</a></li>
+							<li><a href="contact.php">Contact</a></li>
+              <li><a href="contact.php">Request politician</a></li>
 						</ul>
 					</nav>
 
@@ -51,14 +45,12 @@
 					<div id="main">
 						<div class="inner">
 							<header>
-								<h1>This is Phantom, a free, fully responsive site<br />
-								template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>
-								<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
+								<h2>Welcome to Politi-bot. Get political leaders' stock responses to any question of the day.</h2>
 							</header>
 							<section class="tiles">
 								<article class="style1">
 									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
+										<img src="images/trump1.jpg" alt="" />
 									</span>
 									<a href="generic.html">
 										<h2>Magna</h2>
@@ -69,7 +61,7 @@
 								</article>
 								<article class="style2">
 									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
+										<img src="images/trump2.jpg" alt="" />
 									</span>
 									<a href="generic.html">
 										<h2>Lorem</h2>
@@ -194,43 +186,15 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<div class="inner">
-							<section>
-								<h2>Get in touch</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
-								</form>
-							</section>
 							<section>
 								<h2>Follow</h2>
 								<ul class="icons">
 									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
 									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
 									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
 								</ul>
 							</section>
-							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
 					</footer>
 
 			</div>
