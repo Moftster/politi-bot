@@ -3294,3 +3294,7 @@ input, select, textarea {
 			}
 
 		}
+
+	.btn {
+		margin: 5px;
+	}

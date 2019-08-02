@@ -3,7 +3,7 @@
 					<div id="main">
 						<div class="inner">
 							<header>
-								<h2>Welcome to Politi-bot. Get political leaders' stock responses to any question of the day.</h2>
+								<h2>Get political leaders' stock responses to any question of the day.</h2>
 							</header>
 							<section class="tiles">
 								<article class="style1">
