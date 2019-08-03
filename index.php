@@ -2,7 +2,31 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<header>
+							<div class="container">
+								<div class="row">
+										<div class="home-margin zoom col-md-4">
+											<a href="trump.php">
+												<img class="card-img-top" src="images/trump-square-1.jpg" alt="Card image cap">
+											</a>
+										</div>
+										<div class="zoom col-md-4">
+												<img class="card-img-top" src="images/obama-square-1.jpg" alt="Card image cap">
+										</div>
+										<div class="zoom col-md-4">
+												<img class="card-img-top" src="images/johnson-square-1.jpg" alt="Card image cap">
+										</div>
+										<div class="zoom col-md-4">
+												<img class="card-img-top" src="images/trump-square-1.jpg" alt="Card image cap">
+										</div>
+										<div class="zoom col-md-4">
+												<img class="card-img-top" src="images/trump-square-1.jpg" alt="Card image cap">
+										</div>
+										<div class="zoom col-md-4">
+												<img class="card-img-top" src="images/trump-square-1.jpg" alt="Card image cap">
+										</div>
+								</div>
+							</div>
+							<!-- <header>
 							</header>
 							<section class="tiles">
 								<article class="style1">
@@ -136,7 +160,7 @@
 										</div>
 									</a>
 								</article>
-							</section>
+							</section> -->
 						</div>
 					</div>
 

@@ -113,11 +113,20 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+		@media screen and (max-width: 600px) {
+
+			img {
+				padding-right: 15px;
+			}
+
+}
+
+
 /* Type */
 
 	body, input, select, textarea {
 		color: #585858;
-		font-family: cursive, sans-serif;
+		font-family: roboto, cursive, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
@@ -3274,6 +3283,10 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 480px) {
+			margin-
+}
+
 /* Wrapper */
 
 	#wrapper > * > .inner {
@@ -3305,4 +3318,11 @@ input, select, textarea {
 
 	.home-margin{
 		margin-bottom: 22px;
+
+	}
+
+	.navbar-brand {
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
 	}
