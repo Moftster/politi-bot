@@ -21,7 +21,6 @@
 								<a href="index.php" class="logo">
 									<span class="symbol"><img src="images/politilogo.svg" alt="" /></span><span class="title">Politi-bot</span>
 								</a>
-
 							<!-- Nav -->
 								<nav>
 									<ul>
