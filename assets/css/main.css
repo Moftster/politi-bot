@@ -3322,7 +3322,12 @@ input, select, textarea {
 	}
 
 	.navbar-brand {
-		display:block;
+		display:inline-block;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.title-text {
+		vertical-align: middle;
+		text-align: center;
 	}

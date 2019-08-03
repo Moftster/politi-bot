@@ -13,12 +13,48 @@
 					<header>
 
 
-							<nav class="mx-auto navbar navbar-light">
+							<!-- <nav class="mx-auto navbar navbar-light">
 							  <a class="navbar-brand" href="index.php">
-							    <img src="images/politilogo.svg" class="d-inline-block align-top" height="30" alt="">
-									<div class="d-inline-block align-center">Politi-bot</div>
+									<div class="align-middle">
+								    <img src="images/politilogo.svg" class="d-inline-block align-top" height="30" alt="">
+										<div class="d-inline-block align-top title-text">Politi-bot</div>
+									</div>
 							  </a>
-							</nav>
+							</nav> -->
+
+							<div class="container">
+
+							<nav class="navbar navbar-expand-sm navbar-light bg-faded">
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+								</button>
+
+								<!-- Brand -->
+								<a class="navbar-brand" href="index.php">
+							 	 <div class="align-middle">
+							 		 <img src="images/politilogo.svg" class="d-inline-block align-top" height="30" alt="">
+							 		 <div class="d-inline-block align-top title-text">Politi-bot</div>
+							 	 </div>
+							  </a>
+								<!-- Links -->
+								<div class="collapse navbar-collapse justify-content-end" id="nav-content">
+								<ul class="navbar-nav">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+									Menu
+									</a>
+									<div class="dropdown-menu" aria-labelledby="Preview">
+									<a class="dropdown-item" href="about.php">About</a>
+									<a class="dropdown-item" href="contact.php">Contact</a>
+									<a class="dropdown-item" href="request.php">Request bot</a>
+
+								</div>
+								</li>
+								</ul>
+								</div>
+								</nav>
+
+							</div>
 
 							<!-- Logo -->
 								<!-- <a href="index.php" class="logo">
