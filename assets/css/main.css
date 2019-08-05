@@ -3344,4 +3344,6 @@ input, select, textarea {
 	  transform: translate(-50%, -50%);
 		color: white;
 		font-family: 'Amatic SC', cursive;
+		text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+
 	}
