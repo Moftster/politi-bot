@@ -168,7 +168,6 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
 	}
 
 	h1 {
@@ -3309,25 +3308,40 @@ input, select, textarea {
 	}
 
 	.zoom {
-		transition: transform 1s;
+		transition: all 1s;
+		transform: scale(1);
+		position: relative;
+		text-align: center;
+		color: white !important;
+
 	}
 
 	.zoom:hover {
-		transform: scale(1.1);
+		transform: scale(1.2);
 	}
 
 	.home-margin{
-		margin-bottom: 22px;
+		margin-bottom: 10px;
+		padding: 65px;
 
 	}
 
 	.navbar-brand {
-		display:inline-block;
-		margin-left: auto;
-		margin-right: auto;
+		display:inline-block !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
 	}
 
 	.title-text {
 		vertical-align: middle;
 		text-align: center;
+	}
+
+	.centered {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+		color: white;
+		font-family: 'Amatic SC', cursive;
 	}

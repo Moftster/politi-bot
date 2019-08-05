@@ -30,12 +30,13 @@
 								</button>
 
 								<!-- Brand -->
+								<div class="justify-content-center">
 								<a class="navbar-brand" href="index.php">
-							 	 <div class="align-middle">
 							 		 <img src="images/politilogo.svg" class="d-inline-block align-top" height="30" alt="">
 							 		 <div class="d-inline-block align-top title-text">Politi-bot</div>
-							 	 </div>
 							  </a>
+							</div>
+
 								<!-- Links -->
 								<div class="collapse navbar-collapse justify-content-end" id="nav-content">
 								<ul class="navbar-nav">
