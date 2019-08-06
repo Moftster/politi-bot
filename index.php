@@ -4,17 +4,23 @@
 						<div class="inner">
 							<div class="container">
 								<div class="row">
-										<div class="panel home-margin zoom col-md-4">
+										<div class="home-margin zoom col-md-4">
 											<a href="trump.php">
 												<img class="card-img-top" src="images/trump-square-1.jpg" alt="Card image cap">
 												<div class="centered">Donald Trump</div>
 											</a>
 										</div>
 										<div class="home-margin zoom col-md-4">
+											<a href="obama.php">
 												<img class="card-img-top" src="images/obama-square-1.jpg" alt="Card image cap">
+												<div class="centered">Barack Obama</div>
+											</a>
 										</div>
 										<div class="home-margin zoom col-md-4">
+											<a href="johnson.php">
 												<img class="card-img-top" src="images/johnson-square-1.jpg" alt="Card image cap">
+												<div class="centered">Boris Johnson</div>
+											</a>
 										</div>
 										<div class="zoom col-md-4">
 											<img class="card-img-top" src="images/trump-square-1.jpg" alt="Card image cap">

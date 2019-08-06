@@ -3339,11 +3339,20 @@ input, select, textarea {
 
 	.centered {
 	  position: absolute;
-	  top: 50%;
+	  top: 70%;
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 		color: white;
 		font-family: 'Amatic SC', cursive;
 		text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+		font-size: 1.5em;
 
+	}
+
+	.form-group {
+		margin-top: 30px;
+	}
+
+	.form-control {
+		font-size: 20px;
 	}

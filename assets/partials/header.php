@@ -47,7 +47,7 @@
 									<div class="dropdown-menu" aria-labelledby="Preview">
 									<a class="dropdown-item" href="about.php">About</a>
 									<a class="dropdown-item" href="contact.php">Contact</a>
-									<a class="dropdown-item" href="request.php">Request bot</a>
+									<a class="dropdown-item" href="request-bot.php">Request bot</a>
 
 								</div>
 								</li>
@@ -67,6 +67,7 @@
 										<li><a href="#menu">Menu</a></li>
 									</ul>
 								</nav> -->
+						<?php	include('core/database/connection.php'); ?>
 
 					</header>
 
