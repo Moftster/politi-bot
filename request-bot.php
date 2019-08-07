@@ -8,9 +8,19 @@
 
                   <div class="row">
                       <div class="col-md-6">
-                        <form>
+                        <form action="core/database/request.php" method="POST">
 
                           <h2 class="form-group">Suggest a Politi-bot</h2>
+
+                          <?php
+
+                          if(isset($_GET['msg'])) {
+
+                          echo "<p class='text-danger'>" . $_GET['msg'] . "</p>";
+
+                          }
+
+                          ?>
 
                           <div class="form-group">
                           <input type="text" class="form-control" name="request" placeholder="Who's missing?">
@@ -21,7 +31,7 @@
                           </div>
 
                           <div class="form-group">
-                          <button type="submit" class="form-control">Submit</button>
+                          <button type="submit" name="insert" class="form-control">Submit</button>
                           </div>
 
                         </form>
