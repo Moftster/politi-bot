@@ -3,10 +3,11 @@
 $dbServername = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
-$dbName = "politi-bot";
+$dbName = "politibot";
 
 try {
-  $conn = new PDO("mysql:host=$dbServername; dbName=$dbName; $dbUsername; $dbPassword");
+
+  $conn = new PDO("mysql:host=$dbServername;dbName=$dbName", $dbUsername, $dbPassword);
 
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
