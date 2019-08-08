@@ -3322,7 +3322,7 @@ input, select, textarea {
 
 	.home-margin{
 		margin-bottom: 10px;
-		padding: 65px;
+		padding: 40px;
 
 	}
 
@@ -3356,3 +3356,22 @@ input, select, textarea {
 	.form-control {
 		font-size: 20px;
 	}
+
+	.jumbotron{
+			background-image: url(/images/robot-banner7.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			padding: 0;
+			/* background-color: black;
+			background-blend-mode: screen; */
+		}
+
+		.display-4{
+			padding: 20px;
+			padding-right: 50px;
+			margin: 0px 20px;
+			text-align: left;
+			font-weight: 300;
+			color: white;
+			text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+		}

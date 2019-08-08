@@ -3,6 +3,11 @@
 					<div id="main">
 						<div class="inner">
 							<div class="container">
+								<div class="jumbotron jumbotron-fluid">
+								  <div class="container">
+								    <h1 class="display-4">Stock political reponses</h1>
+								  </div>
+								</div>
 								<div class="row">
 										<div class="home-margin zoom col-md-4">
 											<a href="trump.php">
