@@ -22,7 +22,30 @@ if(isset($_POST['insert'])){
     $PDOExecute = $PDOResult->execute(array(":requestedBot"=>$requestedBot, ":email"=>$email));
 
     if($PDOExecute) {
-      $msg = "Your bot has been requested";
+
+      $to = "david@sellmysnaps.com";
+
+      $from = $_POST['email'];
+
+      $request = $_POST['request'];
+
+      $subject = "Politi-bot requested";
+
+      $subjectSender = "Confirmation of Politi-bot form submission";
+
+      $message = "You received a bot request from " . $email . " for " . $request . ".";
+
+      $messageSender = "You requested " . $request . " at Politi-bot.";
+
+      $headerFrom = "From:" . $from;
+
+      // $headerTo = "To:" . $to;
+
+      mail($to,$subject,$message,$headerFrom);
+
+      mail($from,$subjectSender,$messageSender,$headerFrom);
+
+      $msg = "Your bot has been requested. You will receive email confirmation shortly.";
 
       header('location:/request-bot.php?msg=' . $msg);
     } else {
