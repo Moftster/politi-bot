@@ -9,7 +9,7 @@
                   <div class="row">
                       <div class="col-md-6">
                         <div class="card mb-4 box-shadow ">
-                          <img class="card-img-top" src="images/farage-speaking.jpg" alt="Card image cap">
+                          <img class="card-img-top" src="images/obama-speaking.jpg" alt="Card image cap">
                         </div>
                       </div>
                       <div class="soundSnippets">
