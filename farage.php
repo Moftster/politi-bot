@@ -9,15 +9,15 @@
                   <div class="row">
                       <div class="col-md-6">
                         <div class="card mb-4 box-shadow ">
-                          <img class="card-img-top" src="images/trump3.jpg" alt="Card image cap">
+                          <img class="card-img-top" src="images/farage-speaking.jpg" alt="Card image cap">
                         </div>
                       </div>
                       <div class="soundSnippets">
                         <div class="col-md-3">
                           <div class="form-group">
                             <div class="snippet">
-                              <input type="button" class="btn" value="&quot;Hair&quot;" onclick=play('audio1')>
-                              <audio id="audio1" src="assets/sounds/trump/hair.wav"><audio>
+                              <input type="button" class="btn" value="&quot;Belgium&quot;" onclick=play('audio1')>
+                              <audio id="audio1" src="assets/sounds/Farage/belgium.wav"><audio>
                             </div>
                             <div class="snippet">
                               <input type="button" class="btn" value="&quot;China&quot;" onclick=play('audio2')>
