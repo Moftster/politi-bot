@@ -35,15 +35,15 @@
 											</a>
 										</div>
 										<div class="home-margin zoom col-md-4">
-											<a href="obama.php">
-												<img class="card-img-top" src="images/obama-square-1.jpg" alt="Card image cap">
-												<div class="centered">Barack Obama</div>
+											<a href="churchill.php">
+												<img class="card-img-top" src="images/churchill-square.jpg" alt="Card image cap">
+												<div class="centered">Winston Churchill</div>
 											</a>
 										</div>
 										<div class="home-margin zoom col-md-4">
-											<a href="johnson.php">
-												<img class="card-img-top" src="images/johnson-square-1.jpg" alt="Card image cap">
-												<div class="centered">Boris Johnson</div>
+											<a href="corbyn.php">
+												<img class="card-img-top" src="images/corbyn-square.jpg" alt="Card image cap">
+												<div class="centered">Jeremy Corbyn</div>
 											</a>
 										</div>
 
