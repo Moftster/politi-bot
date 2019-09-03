@@ -16,16 +16,16 @@
                         <div class="col-md-3">
                           <div class="form-group">
                             <div class="snippet">
-                              <input type="button" class="btn" value="Belgium" onclick=play('audio1')>
-                              <audio id="audio1" src="assets/sounds/Farage/belgium.wav"><audio>
+                              <input type="button" class="btn" value="Obama" onclick=play('audio2')>
+                              <audio id="audio2" src="assets/sounds/obama/obama2.wav"><audio>
                             </div>
                             <div class="snippet">
-                              <input type="button" class="btn" value="Herman van Rompuy" onclick=play('audio2')>
-                              <audio id="audio2" src="assets/sounds/Farage/Charisma.wav"><audio>
+                              <input type="button" class="btn" value="Beeer and drugs" onclick=play('audio1')>
+                              <audio id="audio1" src="assets/sounds/obama/beer-drugs.wav"><audio>
                             </div>
                             <div class="snippet">
-                              <input type="button" class="btn" value="Brexit" onclick=play('audio3')>
-                              <audio id="audio3" src="assets/sounds/Farage/Independence-day2.wav"><audio>
+                              <input type="button" class="btn" value="Citizens" onclick=play('audio3')>
+                              <audio id="audio3" src="assets/sounds/obama/people.wav"><audio>
                             </div>
                           </div>
                         </div>
