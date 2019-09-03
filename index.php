@@ -48,21 +48,21 @@
 										</div>
 
 										<div class="home-margin zoom col-md-4">
-											<a href="trump.php">
-												<img class="card-img-top" src="images/trump-square-1.jpg" alt="Card image cap">
-												<div class="centered">Donald Trump</div>
+											<a href="thatcher.php">
+												<img class="card-img-top" src="images/thatcher-square.jpg" alt="Card image cap">
+												<div class="centered">Margaret Thatcher</div>
 											</a>
 										</div>
 										<div class="home-margin zoom col-md-4">
-											<a href="obama.php">
-												<img class="card-img-top" src="images/obama-square-1.jpg" alt="Card image cap">
-												<div class="centered">Barack Obama</div>
+											<a href="may.php">
+												<img class="card-img-top" src="images/may-square.jpg" alt="Card image cap">
+												<div class="centered">Theresa May</div>
 											</a>
 										</div>
 										<div class="home-margin zoom col-md-4">
-											<a href="johnson.php">
-												<img class="card-img-top" src="images/johnson-square-1.jpg" alt="Card image cap">
-												<div class="centered">Boris Johnson</div>
+											<a href="blair.php">
+												<img class="card-img-top" src="images/blair-square.jpg" alt="Card image cap">
+												<div class="centered">Tony Blair</div>
 											</a>
 										</div>
 
